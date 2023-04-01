@@ -5,72 +5,79 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <header>
-    <h1>codiGO</h1>
-    <p>Hola, mi nombre es Sebastian Yabiku</p>
+    <h1 class="header-title">codiGO</h1>
+    <p class="header-text">Hola, mi nombre es Sebastian Yabiku</p>
   </header>
-  <section>
-    <h1>Sobre mi</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, tempora voluptatem ducimus quasi nemo doloribus corrupti explicabo praesentium deserunt odio incidunt repellat amet dolorem temporibus ab reiciendis at sit. Cupiditate!</p>
-    <button>Ver CV</button>
+  <section class="about">
+    <h1 class="about-title">Sobre mi</h1>
+    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse.</p>
+    <button class="about-button">Ver CV</button>
   </section>
-  <section>
-    <h1>Mis Skills</h1>
-    <p>HTML</p>
-      <div>
-        <div></div>
-      </div>
-    <p>CSS</p>
-      <div>
-        <div></div>
-      </div>
-    <p>JavaScript</p>
-      <div>
-        <div></div>
-      </div>
-    <p>Vue</p>
-      <div>
-        <div></div>
-      </div>
-    <p>Flexbox</p>
-      <div>
-        <div></div>
-      </div>
-    <p>CSS Grid</p>
-      <div>
-        <div></div>
-      </div>
+  <section class="skills">
+    <h1 class="skills-title">Mis Skills</h1>
+    <div class="skills-boxes">
+      <p class="skills-label">HTML</p>
+        <div class="skills-box">
+          <div class="skills-box_1"></div>
+        </div>
+      <p class="skills-label">CSS</p>
+        <div class="skills-box">
+          <div class="skills-box_2"></div>
+        </div>
+      <p class="skills-label">JavaScript</p>
+        <div class="skills-box">
+          <div class="skills-box_3"></div>
+        </div>
+      <p class="skills-label">Vue</p>
+        <div class="skills-box">
+          <div class="skills-box_4"></div>
+        </div>
+      <p class="skills-label">Flexbox</p>
+        <div class="skills-box">
+          <div class="skills-box_5"></div>
+        </div>
+      <p class="skills-label">CSS Grid</p>
+        <div class="skills-box">
+          <div class="skills-box_6"></div>
+        </div>
+    </div>
   </section>
-  <section>
-    <h1>Portafolio</h1>
-    <img src="imagenes/pfolio-01.png" alt="Proyecto 1">
-    <img src="imagenes/pfolio-02.png" alt="Proyecto 2">
-    <img src="imagenes/pfolio-03.png" alt="Proyecto 3">
-    <img src="imagenes/pfolio-04.png" alt="Proyecto 4">
-    <img src="imagenes/pfolio-05.png" alt="Proyecto 5">
-    <img src="imagenes/pfolio-06.png" alt="Proyecto 6">
-    <img src="imagenes/pfolio-07.png" alt="Proyecto 7">
-    <img src="imagenes/pfolio-08.png" alt="Proyecto 8">
+  <section class="portfolio">
+    <h1 class="portfolio-title">Portafolio</h1>
+    <div class="portfolio-img">
+      <img src="img/pfolio-01.png" alt="Proyecto 1">
+      <img src="img/pfolio-02.png" alt="Proyecto 2">
+      <img src="img/pfolio-03.png" alt="Proyecto 3">
+      <img src="img/pfolio-04.png" alt="Proyecto 4">
+      <img src="img/pfolio-05.png" alt="Proyecto 5">
+      <img src="img/pfolio-06.png" alt="Proyecto 6">
+      <img src="img/pfolio-07.png" alt="Proyecto 7">
+      <img src="img/pfolio-08.png" alt="Proyecto 8">
+    </div>
   </section>
-  <section>
-    <h1>Clientes</h1>
-    <img src="imagenes/clientes-01.png" alt="">
-    <img src="imagenes/clientes-02.png" alt="">
-    <img src="imagenes/clientes-03.png" alt="">
-    <img src="imagenes/clientes-04.png" alt="">
+  <section class="client">
+    <h1 class="client-title">Clientes</h1>
+    <div class="client-img">
+      <img src="img/clientes-01.png" alt="Empresa 1" >
+      <img src="img/clientes-02.png" alt="Empresa 2" >
+      <img src="img/clientes-03.png" alt="Empresa 3" >
+      <img src="img/clientes-04.png" alt="Empresa 4" >
+    </div>
   </section>
-  <section>
-    <h1>Contacto</h1>
-    <section>
-      <input type="text" placeholder="Nombre">
-      <input type="text" placeholder="Apellido">
-      <input type="email" placeholder="Email">
-      <input type="number" placeholder="Teléfono">
+  <section class="contact-container">
+    <h1 class="contact-title">Contacto</h1>
+    <section class="contact-form">
+      <input class="contact-input" type="text" placeholder="Nombre">
+      <input class="contact-input" type="text" placeholder="Apellido">
+      <input class="contact-input" type="email" placeholder="Email">
+      <input class="contact-input" type="number" placeholder="Teléfono">
     </section>
-    <textarea name="caja" id="box" cols="30" rows="10" placeholder="Descripción"></textarea>
-    <button>ENVIAR</button>
+    <textarea name="caja" id="box" cols="30" rows="10" placeholder="Descripción" class="contact-textarea"></textarea>
+    <button class="contact-button">ENVIAR</button>
   </section>
 </body>
 </html>
